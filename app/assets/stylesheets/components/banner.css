@@ -2,7 +2,7 @@
 .hero-image {
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");*/
     
-    background-image: url('/img/images/harleyVSjinx.jpg');
+    background-image: url('/assets/img/images/harleyVSjinx.jpg');
     height: 65%;
     height: 300px;
     background-position: center;
