@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+/* style.Css */
+
+/* Import components stylesheets */
+@import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/tabs.css");
+
+
+/* GLOBAL */
+body{
+/*	margin: 0;
+	padding: 0;*/
+	font-family: Helvetica, Arial, sans-serif;
+}
+header{
+	margin-bottom: 5px;
+}
+body, html {
+    height: 100%;
+}
+.separate{
+	border: solid 1px lightgrey;
+	clear: both;
+}

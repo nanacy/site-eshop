@@ -1,0 +1,62 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    min-width: 300px;
+    margin-top: 3%;
+	margin-left: 3%;
+    margin-bottom: 2%;
+	height: 400px;
+
+	overflow: scroll;
+    text-align: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 4px 1px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 1% 5%;
+}
+
+.card-prod{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card3{
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+}
+
+.texte{
+    font-size: 14px;
+}
+
+/* BOUTON BASIQUE*/
+.btn {
+    border-width: 2px;
+    font-weight: 400;
+
+    border: none;
+    border-radius: 0.2rem;
+    
+    font-size: 0.8571em;
+    line-height: 1.35em;
+
+    margin: 10px 1px;
+    padding: 11px 22px;
+
+    cursor: pointer;
+}
+/* OVALE */
+.btn-round{
+    border-radius: 1.2rem;
+}
+/* COULEUR */
+.btn-success{
+    background-color: #32CD32;
+    color: #FFFFFF;
+}
